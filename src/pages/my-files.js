@@ -2,6 +2,8 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 
+//Shows all the files that are accessible for Gatsby
+
 export default function MyFiles({ data }) {
   console.log(data)
   return (

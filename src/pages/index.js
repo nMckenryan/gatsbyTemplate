@@ -19,7 +19,7 @@ export default function Home({ data }) {
         <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
-            <Link
+            <Link //Links to the slug
               to={node.fields.slug}
               css={css`
                 text-decoration: none;

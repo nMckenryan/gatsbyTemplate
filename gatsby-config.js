@@ -1,6 +1,9 @@
 module.exports = {
+  // INSTALL REACT-HELMET npm install --save gatsby-plugin-react-helmet react-helmet
   siteMetadata: {
     title: `Pandas Eating Lots`,
+    description: `A simple description about pandas eating lots...`,
+    author: `gatsbyjs`,
   },
   plugins: [
     {
@@ -20,6 +23,7 @@ module.exports = {
     },
 
     {
+      //USE: npm install --save gatsby-plugin-offline
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `GatsbyJS`,
